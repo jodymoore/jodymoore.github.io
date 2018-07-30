@@ -952,6 +952,10 @@ input [type="submit"] {margin-left: 130px;}
     #starlightTheatreright {
         width: 100%;
     }
+    
+    figure {
+        display:none;
+    }
        
     footer {
         padding-top: 0;
