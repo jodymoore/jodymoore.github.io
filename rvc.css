@@ -953,9 +953,13 @@ input [type="submit"] {margin-left: 130px;}
         width: 100%;
     }
     
+    #gallery {
+        height: 700px;
+    }
+    
     #gallery ul img {
-        width: 75px;
-        height: 75px;
+        width: 80px;
+        height: 80px;
     }
     
     figure {
