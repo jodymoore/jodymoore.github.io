@@ -1,0 +1,967 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+header, main, nav, footer, figure, figcaption, aside, section, article {
+    display:block; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    background-image: linear-gradient(to bottom,#FFFFFF, #001F48);
+    font-family: Raleway, sans-serif;
+}
+
+#wrapper {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+p { 
+    font-size: 1.2em;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav {
+    font-family: Times New Roman, serif;
+    position: fixed;
+    top: 0;
+    right: .2%;
+    height: 4vw;
+    width: 100%;
+    text-align: center;
+    background-color: #001F48;
+    font-weight: bold;
+    border-top: 4px groove #000000;
+    border-bottom: 4px groove #000000;
+}
+
+#titleHero{
+    font-size: 400%;
+    letter-spacing: 0.35em;
+    font-weight: bolder;
+    color: #FFFFFF;
+/*
+    text-shadow:
+    -2px -2px 0 #ffd700  ,
+    2px -2px 0 #ffd700  ,
+    -2px 2px 0 #ffd700  ,
+    2px 2px 0 #ffd700  ;
+*/
+}
+
+#divWelcomeParagraph {
+    height: 150px;
+    width: 100%;
+    color: #000000;
+    padding: 10px;
+}
+
+#divWelcomeParagraph span {
+    font-size: 150%;
+    color: #003366;
+}
+
+nav a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    text-shadow:
+    -1px -1px 0 #FFFFFF  ,
+    1px -1px 0 #FFFFFF  ,
+    -1px 1px 0 #FFFFFF ,
+    1px 1px 0 #FFFFFF  ;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div {
+    font-size: 1em;
+}
+
+ h1 {
+       color: #001F48;
+}
+
+nav ul li {
+    color: #FFFFFF;
+    font-size: 1.6vw;
+
+    padding-right: 1.2%;
+    padding-left: 1.2%;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;  
+    clear: both;
+}
+
+.container {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container1 {
+    display: inline-block;
+    background-image: url("pic30.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vw;
+    margin-top: 2%;
+}
+
+#studentStory1 {
+    width: 100%;
+    height: 500px;
+}
+
+#studentTestemonials {
+    padding-top: 5px;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#studentStory1left {
+    display: inline-block;
+    background-image: url("pic27-N.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 500px;
+	max-height: 100%;
+	max-width: 100%;	
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 1%;
+	float: left;
+     
+}
+
+#studentStory1right {
+	display: inline-block;
+    width: 50%;
+    height: 200px;
+	float: right; 
+}
+#studentStory2 {
+    clear: both;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+#studentStory2left {
+	display: inline-block;
+    width: 50%;
+    height: 200px;
+	float: left;  
+}
+
+#studentStory2right {
+    display: inline-block;
+    background-image: url("pic40.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 200px;
+	max-height: 100%;
+	max-width: 100%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 1%;
+	float: right;
+}
+#studentStory3 {
+    width: 100%;
+    height: 400px;
+    clear: both;
+}
+
+#studentStory3left {
+	display: inline-block;
+    width: 50%;
+    height: 300px;
+	float: left;  
+}
+
+#studentStory3right {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 300px;	
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 1%;
+	float: right;
+}
+
+#studentStoryG {
+    font-size: 200%;
+    font-weight: bold;
+    color: #001F48;
+}
+
+#lowerParagraph {
+    clear: both;
+    width: 100%;
+    padding: 5px;
+    height: 150px;
+    
+}
+
+#dividerSection {
+/*    height: 15px;*/
+    width: 80%;
+/*    background-color: #000000;*/
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #CDCDCD; 
+}
+
+#dividerSection2 {
+    height: 25px;
+    width: 80%;
+/*    background-color: #000000;*/
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #CDCDCD; 
+}
+
+#runningStart {
+    height: 450px;
+    width: 100%;  
+    clear: both;
+}
+
+#runningStartleft p a{
+    text-decoration: none;
+}
+
+#runningStart h1 {
+       color: #003366;
+}
+
+#runningStartleft {
+	display: inline-block;
+    width: 50%;
+    height: 400px;
+	float: left;  
+}
+
+#runningStartright {
+    display: inline-block;
+    background-image: url("runningStart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 48%;
+    height: 400px;
+	max-height: 100%;
+	max-width: 100%;	
+    margin: 1%;
+	float: right;
+}
+
+#niuPartnership {
+    height: 300px;
+    width: 100%;
+    clear: both;
+    color: #003366;
+
+}
+
+#niuPartnership h1 {
+    text-align: center;
+}
+
+#niuPartnershipleft {
+    background-image: url("pic45.jpg");
+    background-repeat: no-repeat;
+    height:15vw;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 1%;
+	width: 45%;
+	float: left;
+
+}
+
+#niuPartnershipright {
+    height: 300px;
+    width: 52%;
+	float: right;
+}
+
+#niuPartnershipright a {
+    text-decoration: none;
+}
+
+#mathLab {
+    height: 470px;
+    width: 100%;  
+    clear: both;
+}
+
+#mathLab h1 {
+       color: #003366;
+}
+
+#mathLableft {
+	display: inline-block;
+    width: 50%;
+    height: 400px;
+	float: left;  
+}
+
+#mathLabright {
+    display: inline-block;
+    background-image: url("pic43.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 48%;
+    height: 400px;	
+    margin: 1%;
+	float: right;
+}
+
+#trioServices {
+    height: 450px;
+    width: 100%;
+    clear: both;
+    color: #003366;
+
+}
+
+#trioServices h1 {
+    text-align: center;
+}
+
+#trioServicesleft {
+    background-image: url("picTrio.jpg");
+    background-repeat: no-repeat;
+    height: 15vw;
+    background-size: cover;
+    margin: 0;
+	width: 45%;
+	float: left;
+
+}
+
+#trioServicesright {
+    height: 300px;
+    width: 52%;
+	float: right;
+}
+
+#para6 {
+    height: 450px;
+    width: 100%;  
+    clear: both;
+}
+
+#para6 h1 {
+       color: #003366;
+}
+
+#para6left {
+	display: inline-block;
+    width: 50%;
+    height: 400px;
+	float: left;  
+}
+
+#para6right {
+    display: inline-block;
+    background-image: url("runningStart.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    height: 400px;
+	max-height: 100%;
+	max-width: 100%;	
+    margin: 1%;
+	float: right;
+}
+
+#starlightTheatre {
+    height: 475px;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    color: #003366;
+
+}
+
+#starlightTheatre h1 {
+    text-align: center;
+}
+
+#starlightTheatreleft {
+    background-image: url("starlight.jpg");
+    background-repeat: no-repeat;
+    height: 25vw;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0;
+	width: 45%;
+	float: left;
+
+}
+
+#starlightTheatreright {
+    height: 300px;
+    width: 52%;
+	float: right;
+    text-align: left;
+}
+
+#mobile {
+     display: none;
+}
+
+#desktop {
+    display: inline;
+}
+
+#bottomHero {
+    height: 200px;
+    background-image: url(pic47.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%; 
+    height: 45vw;
+    clear: both;
+}
+
+#newsLetterModule{
+    clear: both;
+    text-align: left;
+    height: 300px;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    background-image: radial-gradient(#FFFFFF, #003366 );
+    border-radius: 10px;
+}
+
+form {
+    display: inline-block;
+    height: 30vw;
+}
+
+td {
+    padding-right: 50px;
+}
+caption {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#header1 {
+     padding-right: 50px;   
+}
+#header2 {
+     margin-right: 50px;   
+}
+#header3 {
+     margin-right: 50px;   
+}
+
+table {
+      font-size: 1.3em;
+    
+}
+
+#contactModule {
+   width: 95%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 200px;
+   border: 2px groove #000000;
+   border-radius: 10px;
+   background-color: #CCCCCC;   
+   padding-left: 10px;
+   padding-top: 10px;
+}
+
+#contactModule h3 {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+footer span{
+    font-size: 0.6em;
+    font-weight: 400;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+footer{
+    clear: both;
+    border-top-style: groove;
+    margin: 20px;
+    color:#FFFFFF;
+    background-color: #000000;
+    padding-top: 15px;
+    text-align: center;
+    font-style: italic;
+    font-family: serif;
+    font-size: 1em;
+    padding-left: 2px;
+    padding-left: 2px;
+	height: 10vw;
+    
+}
+
+footer h1 {
+    color: #FFFFFF;
+}
+
+#gallery h1 {
+    text-align: center;
+}
+
+#imageGalleryHeader {
+    padding-top: 5px;
+    width: 90%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#gallery { 
+    clear: both;
+    width: 100%;
+    position: relative;
+    height: 900px;
+}
+#gallery ul {list-style-type: none;
+    width: 400px; 
+    margin-left: 30px;
+}
+#gallery li { display: inline; 
+     float: left;
+	 padding: 10px; 
+}
+#gallery img { border-style: none;
+}
+#gallery a { text-decoration: none;
+             font-style: italic;  
+             color: #eaeaea; 
+}
+#gallery span { position: absolute;
+                left: -1000px;
+              opacity: 0;
+              transition:  opacity 3s ease-in-out; 
+}
+#gallery a:hover span {     
+			position: absolute;
+			top: 25px;
+			left: 415px; 
+			text-align: center; 
+            opacity: 1; 
+}
+figure {    position: absolute;
+            top: 10px;
+			left: 375px; 
+			text-align: center; 
+            opacity: .25;
+}
+
+label{ float: left; display: block;
+	   text-align: right; width: 120px; padding-right: 10px;}
+
+input, textarea {display: block;
+				 margin-bottom: 20px;}
+input [type="submit"] {margin-left: 130px;} 
+
+#gallery {
+		  display: inline-block;
+		  }
+
+
+@media only screen and (max-width: 1500px) and (min-width: 1243px) {
+    #studentStory1 {
+        width: 100%;
+        height: 550px;
+        margin-bottom: 0;
+    }
+    
+    nav {
+        padding-bottom: 50px;
+    }
+    
+    #mathLab {
+        height: 500px;
+    }
+     
+    #trioServices {
+        height: 525px;        
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1243px) and (min-width: 1000px) {
+    .container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    nav {
+        padding-bottom: 50px;
+    }
+    
+    #studentStory1 {
+        width: 100%;
+        height: 755px;
+        margin-bottom: 0;
+    }
+    
+    #studentStory2 {
+        width: 100%;
+        height: 475px;
+        margin-bottom: 0;
+    }
+    
+    #niuPartnership {
+        width: 100%;
+        height: 395px;
+    }
+    
+    #trioServices {
+        height: 625px;        
+        width: 100%;
+    }
+     
+    #gallery figure {
+        width: 500px;
+        height: 425px
+    }
+    
+    #mathLab {
+        height: 500px;
+    }
+    
+}
+
+@media only screen and (max-width: 64em) {
+    body {
+        margin: 0;
+        font-size: 0.9em;
+    }
+    
+    #wrapper {
+        margin-top: 7.8em;
+        min-width: 0;
+        width: 95%;
+        box-shadow: none;
+        border: none;
+    }
+      
+     #studentStory1 {
+        width: 100%;
+        height: 670px;
+        margin-bottom: 0;
+    }
+    
+    #studentStory2 {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 0;
+    }
+      
+    h1 {
+        letter-spacing: 0.1em;
+        text-align: center;
+    }
+    
+    #niuPartnership {
+        width: 100%;
+        height: 375px;
+    }
+    
+    
+    #trioServices {
+       height: 200px; 
+    }
+    
+    #trioServicesleft {
+      background-image: none; 
+      width: 0px;
+        height: 0;
+    }
+    
+    
+    #trioServicesright {
+        height: 300px;
+        width: 100%;
+    }
+    
+    nav {
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding-bottom: 0.2em;
+    }
+    
+    nav li {
+        display: block;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+        padding-left: 0.75em;
+        padding-right: 0.75em;
+        width: 100%;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        width: 100%;
+        padding-left: 0;
+        font-size: 1.2em;
+        display: inline-grid;
+        
+    }
+    
+    nav a {
+       text-align: center;
+       width: 100%;
+       font-size: 1.1em;
+    }
+    
+    footer {
+        padding-top: 5px;
+    }
+    
+    footer span{
+        font-size: 0.4em;
+        font-weight: 400;
+        padding-left: ;
+        padding-right: ;
+    }
+	
+    
+}
+
+@media only screen and (max-width: 900px) and (min-width: 590px) {
+    
+    .container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #studentStory1 {
+        width: 100%;
+        height: 725px;
+        margin-bottom: 0;
+    }
+    
+    #studentStory2 {
+        width: 100%;
+        height: 475px;
+        margin-bottom: 0;
+        clear: left;
+    }
+    #imgStudentStory2 {
+        width: 100px;
+        height: 200px;
+    }
+    
+    #niuPartnership {
+        width: 100%;
+        height: 220px;
+    }
+    
+    #niuPartnershipleft {
+      background-image: none; 
+      width: 0px;
+    }
+      
+    #niuPartnershipright {
+        margin-top: -155px;
+
+        height: 300px;
+        width: 100%;
+    }
+    
+    #mathLab {
+        width: 100%;
+        height: 575px; 
+    }
+    
+    #trioServices {
+        height: 200px; 
+    }
+    
+    #trioServicesleft {
+      background-image: none; 
+      width: 0px;
+    }
+      
+    #trioServicesright {
+        height: 300px;
+        width: 100%;
+    }
+    
+    #starlightTheatre {
+    height: 375px;
+    width: 100%;
+   }
+ 
+}
+
+
+@media only screen and (max-width: 37.5em) {
+     #wrapper {
+        margin-top: 6.5em;
+        min-width: 0;
+        width:100%;
+        box-shadow: none;
+        border: none;
+    }
+    
+    #divWelcomeParagraph {
+        height: 250px;
+        width: 100%;
+        color: #000000;
+        padding: 10px;
+    }
+    
+    #studentStory1 {
+        width: 100%;
+        height: 950px;
+        margin-bottom: 0;
+    }
+    
+    #studentStory1left {
+    display: none;
+        height: 0;
+        width: 0;
+    }
+    
+    #studentStory1right {
+        width: 100%;
+    }
+    
+    #studentStory2 {
+         height:450px;;
+    }
+    
+    #studentStory2left {
+        height: 0;
+        width: 100%;
+    }
+    
+    #studentStory2right {
+        margin-top: -600px;
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+    
+    nav {
+        height: auto;
+        padding-bottom: 1.2em;
+        
+    }
+    
+    nav ul li {
+        padding: 2.5px;
+    }
+    
+    nav a {
+       text-align: center;
+       width: 100%;
+       font-size: 2em;
+    }
+    
+    #runningStart {
+        width: 100%;
+        height: 300px;
+    }
+    
+    #runningStartleft {
+        width: 100%;
+    }
+    
+    #runningStartright {
+        display: none;
+        height: 0;
+    }
+    
+    #mathLab {
+        width: 100%;
+        height: 900px;
+    }
+    
+    #mathLableft {
+        width: 100%;
+        height: 450px;
+
+    }
+    
+    #mathLabright{
+        width: 100%;
+
+    }
+    
+    #trioServices {
+        height: 600px;        
+        width: 100%;
+    }
+    
+    #starlightTheatre {
+        height: 700px;
+        width: 100%;
+    }
+    #starlightTheatreleft {
+        float: none;
+        height: 200px;
+        width: 100%;
+    }
+    #starlightTheatreright {
+        width: 100%;
+    }
+       
+    footer {
+        padding-top: 0;
+    }
+
+    footer span{
+        font-size: 0.4em;
+        font-weight: 400;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+}
