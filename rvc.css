@@ -95,7 +95,7 @@ div {
 }
 
  h1 {
-       color: #001F48;
+    color: #001F48;
 }
 
 nav ul li {
@@ -193,6 +193,7 @@ nav ul li {
     margin: 1%;
 	float: right;
 }
+
 #studentStory3 {
     width: 100%;
     height: 400px;
@@ -595,15 +596,20 @@ footer h1 {
 			text-align: center; 
             opacity: 1; 
 }
-figure {    position: absolute;
-            top: 10px;
-			left: 375px; 
-			text-align: center; 
-            opacity: .25;
+figure {    
+    position: absolute;
+    top: 10px;
+    left: 375px; 
+    text-align: center; 
+    opacity: .25;
 }
 
-label{ float: left; display: block;
-	   text-align: right; width: 120px; padding-right: 10px;}
+label{ 
+    float: left;
+    display: block;
+    text-align: right; 
+    width: 120px; 
+    padding-right: 10px;}
 
 input, textarea {display: block;
 				 margin-bottom: 20px;}
@@ -740,6 +746,14 @@ input [type="submit"] {margin-left: 130px;}
         padding-bottom: 0.2em;
     }
     
+    figure {
+        display: none;
+    }
+    
+    #gallery {
+        height: 770px;
+    }
+    
     nav li {
         display: block;
         padding-top: 0.25em;
@@ -775,8 +789,7 @@ input [type="submit"] {margin-left: 130px;}
         padding-left: ;
         padding-right: ;
     }
-	
-    
+	   
 }
 
 @media only screen and (max-width: 900px) and (min-width: 590px) {
@@ -855,7 +868,7 @@ input [type="submit"] {margin-left: 130px;}
         box-shadow: none;
         border: none;
     }
-    
+   
     #divWelcomeParagraph {
         height: 300px;
         width: 100%;
@@ -870,7 +883,7 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     #studentStory1left {
-    display: none;
+        display: none;
         height: 0;
         width: 0;
     }
@@ -909,8 +922,9 @@ input [type="submit"] {margin-left: 130px;}
        text-align: center;
        width: 100%;
        font-size: 2em;
+        
     }
-
+    
     #newsLetterModule input[type="email"]
     {
         size="25"; 
@@ -932,18 +946,17 @@ input [type="submit"] {margin-left: 130px;}
     
     #mathLab {
         width: 100%;
-        height: 900px;
+        height: 975px;
     }
     
     #mathLableft {
         width: 100%;
-        height: 450px;
+        height: 500px;
 
     }
     
     #mathLabright{
         width: 100%;
-
     }
     
     #trioServices {
@@ -952,7 +965,8 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     #starlightTheatre {
-        height: 700px;
+        margin-top: -100px;
+        height: 940px;
         width: 100%;
     }
     #starlightTheatreleft {
@@ -961,11 +975,12 @@ input [type="submit"] {margin-left: 130px;}
         width: 100%;
     }
     #starlightTheatreright {
+        margin-top: 5px;
         width: 100%;
     }
     
     #gallery {
-        height: 700px;
+        height: 550px;
     }
     
     #gallery ul {
