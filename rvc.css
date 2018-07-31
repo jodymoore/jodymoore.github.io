@@ -430,8 +430,9 @@ nav ul li {
     margin-top: -15px;
     display: inline-block;
     width: 45%;
-    height: 400px;
+    height: 550px;
 	float: left;  
+    overflow:hidden;
 }
 
 #gymRight {
@@ -816,6 +817,9 @@ input [type="submit"] {margin-left: 130px;}
     #gym {
         height:750px;
     }
+    #gymLeft {
+        height: 700px;
+    }
     
     #starlightTheatre {
        height: 800px; 
@@ -1068,7 +1072,7 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     #gymLeft {
-        height: 0;
+        height: 670px;
         width: 100%;
     }
     
