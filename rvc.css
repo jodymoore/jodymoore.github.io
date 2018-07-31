@@ -913,7 +913,7 @@ input [type="submit"] {margin-left: 130px;}
 
     #newsLetterModule input[type="email"]
     {
-     size="25"; 
+        size="25"; 
     }
     
     #runningStart {
@@ -968,8 +968,9 @@ input [type="submit"] {margin-left: 130px;}
         height: 700px;
     }
     
-    #gallery ul {list-style-type: none;
-        width: 400px; 
+    #gallery ul {
+        list-style-type: none;
+        width: 300px; 
         margin-left: 30px;
     }
     
