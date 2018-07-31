@@ -985,9 +985,16 @@ input [type="submit"] {margin-left: 130px;}
         
     }
     
+     
     #newsLetterModule input[type="email"]
     {
-        size="25"; 
+        width: 200px;
+    }
+    
+    #newsLetterModule input[type="submit"]
+    {
+        margin-left: auto;
+        margin-right: auto;
     }
     
     #runningStart {
@@ -1048,7 +1055,7 @@ input [type="submit"] {margin-left: 130px;}
 	
 	
 	#gym {
-         height:225vw;
+         height: 240vw;
 		 width: 100vw;
     }
     
@@ -1063,7 +1070,7 @@ input [type="submit"] {margin-left: 130px;}
     
     #starlightTheatre {
         margin-top: -50px;
-        height: 960px;
+        height: 975px;
         width: 100%;
     }
     #starlightTheatreleft {
