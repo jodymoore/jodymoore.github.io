@@ -701,6 +701,11 @@ input [type="submit"] {margin-left: 130px;}
     #starlightTheatre {
        height: 575px; 
     }
+    
+    #gallery {
+        height: 770px;
+        position: inherit;
+    }
 
     
     figure {
@@ -780,11 +785,9 @@ input [type="submit"] {margin-left: 130px;}
     
     #gallery {
         height: 770px;
+        position: inherit;
     }
-    
- 
-
-    
+      
     nav li {
         display: block;
         padding-top: 0.25em;
@@ -985,6 +988,11 @@ input [type="submit"] {margin-left: 130px;}
         
     }
     
+    nav a:hover {
+       background-color: transparent;
+       text-decoration: none;
+    }
+    
      
     #newsLetterModule input[type="email"]
     {
@@ -1085,6 +1093,7 @@ input [type="submit"] {margin-left: 130px;}
     
     #gallery {
         height: 550px;
+        position: inherit;
     }
     
     #gallery ul {
