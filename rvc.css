@@ -926,7 +926,7 @@ input [type="submit"] {margin-left: 130px;}
     }
 	
     #divWelcomeParagraph {
-        height: 300px;
+        height: 275px;
         width: 100%;
         color: #000000;
         padding: 10px;
@@ -934,7 +934,7 @@ input [type="submit"] {margin-left: 130px;}
     
     #studentStory1 {
         width: 100%;
-        height: 1000px;
+        height: 900px;
         margin-bottom: 0;
     }
     
@@ -949,7 +949,7 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     #studentStory2 {
-         height:500px;;
+         height:425px;;
     }
     
     #studentStory2left {
@@ -999,12 +999,12 @@ input [type="submit"] {margin-left: 130px;}
     
     #runningStart {
         width: 100%;
-        height: 350px;
+        height: 300px;
     }
     
     #runningStartleft {
         width: 100%;
-        height: 320px;
+        height: 275px;
     }
     
     #runningStartright {
@@ -1014,7 +1014,7 @@ input [type="submit"] {margin-left: 130px;}
     
 	 #niuPartnership {
          margin-top: -200px;
-         height: 650px;
+         height: 600px;
     }
 	
     
@@ -1034,12 +1034,12 @@ input [type="submit"] {margin-left: 130px;}
 	
     #mathLab {
         width: 100%;
-        height: 975px;
+        height: 910px;
     }
     
     #mathLableft {
         width: 100%;
-        height: 500px;
+        height: 410px;
 
     }
     
@@ -1049,14 +1049,14 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     #trioServices {
-        height: 710px;        
+        height: 650px;        
         width: 100%;
     }
 	
 	
 	#gym {
-         height: 240vw;
-		 width: 100vw;
+         height: 770px;
+		 width: 100%;
     }
     
     #gymLeft {
@@ -1070,7 +1070,7 @@ input [type="submit"] {margin-left: 130px;}
     
     #starlightTheatre {
         margin-top: -50px;
-        height: 975px;
+        height: 900px;
         width: 100%;
     }
     #starlightTheatreleft {
