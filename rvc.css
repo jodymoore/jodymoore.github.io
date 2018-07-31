@@ -433,10 +433,16 @@ nav ul li {
 }
 
 #starlightTheatreright {
-    height: 300px;
+    height: 450px;
     width: 52%;
 	float: right;
     text-align: left;
+    padding-right: 15px;
+    margin-top: -20px;
+}
+
+#starlightTheatreright a{
+    text-decoration: none;
 }
 
 #mobile {
@@ -904,6 +910,11 @@ input [type="submit"] {margin-left: 130px;}
        width: 100%;
        font-size: 2em;
     }
+
+    #newsLetterModule input[type="email"]
+    {
+     size="25"; 
+    }
     
     #runningStart {
         width: 100%;
@@ -957,8 +968,13 @@ input [type="submit"] {margin-left: 130px;}
         height: 700px;
     }
     
+    #gallery ul {list-style-type: none;
+        width: 400px; 
+        margin-left: 30px;
+    }
+    
     #gallery ul img {
-        width: 70px;
+        width: 80px;
         height: 80px;
     }
     
