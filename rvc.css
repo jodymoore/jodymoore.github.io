@@ -615,13 +615,14 @@ footer h1 {
              color: #eaeaea; 
 }
 
-#gallery span { position: absolute;
-                left: -1000px;
-              opacity: 0;
-              transition:  opacity 3s ease-in-out; 
-            font-size: 150%;
-            font-weight: 700;
-            color: #000000;
+#gallery span { 
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition:  opacity 3s ease-in-out; 
+    font-size: 150%;
+    font-weight: 700;
+    color: #000000;
 }
 
 #gallery a:hover span {     
@@ -638,6 +639,7 @@ figure {
     left: 375px; 
     text-align: center; 
     opacity: .25;
+    ;
 }
 
 label{ 
