@@ -992,7 +992,7 @@ input [type="submit"] {margin-left: 130px;}
 @media only screen and (max-width: 37.5em) {
     
 	#wrapper {
-        margin-top: 6.5em;
+        margin-top: 8em;
         min-width: 0;
         width:100%;
         box-shadow: none;
