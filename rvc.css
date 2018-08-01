@@ -998,7 +998,8 @@ input [type="submit"] {margin-left: 130px;}
     }
    
 	#titleHero{
-		font-size: 300%;
+		font-size: 150%;
+       margin-top: -0.004px;
 	}
     
     .container1 {
