@@ -340,6 +340,10 @@ nav ul li {
     clear: both;
 }
 
+#mathLableft a {
+    text-decoration: none;
+}
+
 #mathLab h1 {
        color: #003366;
 }
@@ -369,6 +373,10 @@ nav ul li {
     clear: both;
     color: #003366;
 
+}
+
+#trioServicesright a {
+    text-decoration: none;
 }
 
 #trioServices h1 {
@@ -1203,7 +1211,7 @@ input [type="submit"] {margin-left: 130px;}
     #table2 {
         display: inline-block;
     }
-       
+          
 	#contactModule{
 		height: 200px;
 	}
