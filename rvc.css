@@ -34,6 +34,7 @@ h1, h2 {
 }
 
 nav {
+    z-index : 4; 
     font-family: Times New Roman, serif;
     position: fixed;
     top: 0;
@@ -52,13 +53,7 @@ nav {
     letter-spacing: 0.35em;
     font-weight: bolder;
     color: #FFFFFF;
-/*
-    text-shadow:
-    -2px -2px 0 #ffd700  ,
-    2px -2px 0 #ffd700  ,
-    -2px 2px 0 #ffd700  ,
-    2px 2px 0 #ffd700  ;
-*/
+
 }
 
 #divWelcomeParagraph {
