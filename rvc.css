@@ -245,6 +245,9 @@ nav ul li {
     border-bottom: 2px solid #CDCDCD; 
 }
 
+#table2 {
+    display: none;
+}
 
 #dividerSection2 {
     height: 25px;
