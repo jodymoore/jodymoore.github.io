@@ -246,6 +246,10 @@ nav ul li {
     border-bottom: 2px solid #CDCDCD; 
 }
 
+#table2 {
+    display: none;
+}
+
 #dividerSection2 {
     height: 25px;
     width: 80%;
@@ -584,13 +588,16 @@ footer h1 {
     position: relative;
     height: 900px;
 }
+
 #gallery ul {list-style-type: none;
     width: 400px; 
     margin-left: 30px;
 }
+
 #gallery ul img {
     width: 125px;
     height: 125px;
+    border-radius: 15px;
 }
 
 #gallery ul span img {
@@ -602,17 +609,24 @@ footer h1 {
      float: left;
 	 padding: 10px; 
 }
+
 #gallery img { border-style: none;
 }
+
 #gallery a { text-decoration: none;
              font-style: italic;  
              color: #eaeaea; 
 }
+
 #gallery span { position: absolute;
                 left: -1000px;
               opacity: 0;
               transition:  opacity 3s ease-in-out; 
+            font-size: 150%;
+            font-weight: 700;
+            color: #000000;
 }
+
 #gallery a:hover span {     
 			position: absolute;
 			top: 25px;
@@ -620,6 +634,7 @@ footer h1 {
 			text-align: center; 
             opacity: 1; 
 }
+
 figure {    
     position: absolute;
     top: 10px;
@@ -728,9 +743,23 @@ input [type="submit"] {margin-left: 130px;}
        height: 575px; 
     }
     
+   
     #gallery {
-        height: 770px;
+        height: 1700px;
         position: inherit;
+        margin-left: 180px;
+  
+    }
+    
+    #gallery ul {
+        width: 800px;
+        
+    }
+    
+    #gallery ul img {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
     }
 
     
@@ -758,7 +787,7 @@ input [type="submit"] {margin-left: 130px;}
         border: none;
     }
       
-     #studentStory1 {
+    #studentStory1 {
         width: 100%;
         height: 670px;
         margin-bottom: 0;
@@ -815,8 +844,21 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     #gallery {
-        height: 770px;
+        height: 1700px;
         position: inherit;
+        margin-left: 40px;
+  
+    }
+    
+    #gallery ul {
+        width: 800px;
+        
+    }
+    
+    #gallery ul img {
+        width: 300px;
+        height: 300px;
+        border-radius: 15px;
     }
       
     nav li {
@@ -835,6 +877,10 @@ input [type="submit"] {margin-left: 130px;}
         padding-left: 0;
         font-size: 1.2em;
         display: inline-grid;    
+    }
+    
+    #table2 {
+        display: none;
     }
     
     nav a {
@@ -903,6 +949,7 @@ input [type="submit"] {margin-left: 130px;}
         width: 100%;
         height: 220px;
     }
+    
     
     #niuPartnershipleft {
       background-image: none; 
@@ -1125,7 +1172,7 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     #gallery {
-        height: 550px;
+        height: 1800px;
         position: inherit;
         display: inline-block;
     }
@@ -1133,21 +1180,27 @@ input [type="submit"] {margin-left: 130px;}
     
     #gallery ul {
         list-style-type: none;
-        width: 300px; 
-        margin-left: 30px;
+        width: 200px; 
+        margin-left: 45px;
     }
     
     #gallery ul img {
-        width: 80px;
-        height: 80px;
+        width: 150px;
+        height: 150px;
     }
     
     figure {
         display:none;
     }
+    
+    #table1 {display: none;}
+    
+    #table2 {
+        display: inline-block;
+    }
        
 	#contactModule{
-		height: 335px;
+		height: 200px;
 	}
 	
     footer {
@@ -1156,10 +1209,11 @@ input [type="submit"] {margin-left: 130px;}
     }
 
     footer span{
+        display: inline-block;
         font-size: 0.4em;
         font-weight: 400;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 }
