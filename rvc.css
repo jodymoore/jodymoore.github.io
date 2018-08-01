@@ -245,9 +245,6 @@ nav ul li {
     border-bottom: 2px solid #CDCDCD; 
 }
 
-#table2 {
-    display: none;
-}
 
 #dividerSection2 {
     height: 25px;
@@ -306,7 +303,6 @@ nav ul li {
     width: 100%;
     clear: both;
     color: #003366;
-
 }
 
 #niuPartnership h1 {
