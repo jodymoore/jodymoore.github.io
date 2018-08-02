@@ -57,7 +57,7 @@ h1, h2 {
 
 nav {
     z-index : 4; 
-   font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     position: fixed;
     top: 0;
     right: .2%;
@@ -745,6 +745,7 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     nav {
+        right: .1%;
         padding-bottom: 50px;
     }
     
