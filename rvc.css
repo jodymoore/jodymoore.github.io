@@ -175,6 +175,7 @@ nav ul li2 {
     margin-right: auto;
     background-color: #000000;
     color: #FFFFFF;
+    border-radius: 15px;
 }
 
 #studentStory1left {
@@ -330,6 +331,7 @@ nav ul li2 {
 	max-width: 100%;	
     margin: 1%;
 	float: right;
+    border: 2px solid #000000;
 }
 
 #niuPartnership {
@@ -352,6 +354,7 @@ nav ul li2 {
     margin: 1%;
 	width: 45%;
 	float: left;
+    border: 2px solid #000000;
 
 }
 
@@ -396,6 +399,7 @@ nav ul li2 {
     height: 400px;	
     margin: 1%;
 	float: right;
+    border: 2px solid #000000;
 }
 
 #trioServices {
@@ -453,6 +457,7 @@ nav ul li2 {
     margin: 0;
 	width: 45%;
 	float: left;
+    border: 2px solid #000000;
 
 }
 
@@ -497,6 +502,7 @@ nav ul li2 {
    margin: 0;
    width: 45%;
    float: right;
+    border: 2px solid #000000;
 
 }
 
@@ -535,7 +541,9 @@ form {
     display: inline-block;
     height: 30vw;
 }
-
+input[type = "submit"] {
+    margin-left: 17em;
+}
 td {
     padding-right: 50px;
 }
@@ -616,6 +624,7 @@ footer h1 {
     margin-right: auto;
     background-color: #000000;
     color: #FFFFFF;
+    border-radius: 15px;
 }
 
 #gallery { 
