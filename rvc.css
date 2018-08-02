@@ -1023,8 +1023,9 @@ input [type="submit"] {margin-left: 130px;}
     
     
     #niuPartnershipleft {
-      background-image: none; 
-      width: 0px;
+        background-image: none; 
+        border: none;
+        width: 0px;
     }
       
     #niuPartnershipright {
