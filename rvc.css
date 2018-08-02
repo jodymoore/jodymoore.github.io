@@ -744,8 +744,10 @@ input [type="submit"] {margin-left: 130px;}
         margin-bottom: 20px;
     }
     
+    nav ul {margin-left: -9vw;}
+    
+    
     nav {
-        right: .1%;
         padding-bottom: 50px;
     }
     
@@ -831,7 +833,7 @@ input [type="submit"] {margin-left: 130px;}
 }
 
 @media only screen and (max-width: 64em) {
-      nav ul li {
+    nav ul li {
         padding: 2.5px;
         border-bottom: 3px solid #FFFFFF;
     }
