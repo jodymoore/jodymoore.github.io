@@ -744,7 +744,7 @@ input [type="submit"] {margin-left: 130px;}
         margin-bottom: 20px;
     }
     
-    nav ul {margin-left: -9vw;}
+    nav ul {margin-left: -16vw;}
     
     
     nav {
@@ -752,7 +752,7 @@ input [type="submit"] {margin-left: 130px;}
     }
     
     #wrapper {
-        margin-top: 11em;
+        margin-top: 2em;
     }
     
     #divWelcomeParagraph {
